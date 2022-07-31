@@ -6,9 +6,25 @@ export const Container = Styled.div`
 
 export const Left = Styled.div`
 background-color:black;
-max-width:17.7vw;
+width:14.3%;
 min-height: 100vh;
 display:flex;
 flex-direction: column;
-
+padding:25px;
+img{
+    margin-bottom:25px;
+}
+.icons{
+    text-decoration: none;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    margin-bottom:13px;
+  
+}
+.icon{
+    color:#fff;
+    font-size:30px;
+    margin-right:10px;
+}
 `;
