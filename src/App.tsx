@@ -30,6 +30,47 @@ const App = () => {
           <FavoriteIcon className="icon" />
           Criar Lista de reprodução
         </a>
+        <div className="playlists--container">
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+        </div>
       </C.Left>
       <C.Right>...</C.Right>
     </C.Container>
