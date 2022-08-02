@@ -1,78 +1,43 @@
+import { Backdrop } from "@material-ui/core";
 import React, { useEffect } from "react";
 import * as C from "./App.styles";
-import logo from "./assets/logo.png";
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
-import EqualizerIcon from "@material-ui/icons/Equalizer";
-import AddBoxIcon from "@material-ui/icons/AddBox";
-import FavoriteIcon from "@material-ui/icons/Favorite";
+import LeftPanel from "./components/LeftPanel";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 const App = () => {
   return (
     <C.Container>
-      <C.Left id="teste">
-        <a href="#">
-          <img src={logo} alt="" width="130px" />
-        </a>
-        <a href="#" className="icons">
-          <HomeIcon className="icon" /> Início
-        </a>
-        <a href="#" className="icons">
-          <SearchIcon className="icon" /> Procurar
-        </a>
-        <a href="#" className="icons">
-          <EqualizerIcon className="icon" /> A tua Bibloteca
-        </a>
-        <a href="#" className="icons" id="list">
-          <AddBoxIcon className="icon" /> Criar Lista de reprodução
-        </a>
-        <a href="#" className="icons">
-          <FavoriteIcon className="icon" />
-          Criar Lista de reprodução
-        </a>
-        <div className="playlists--container">
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
-          <a href="#" className="playlists--item">
-            Lista de reprodução
-          </a>
+      <LeftPanel />
+      <C.Right>
+        <div className="navbar">
+          <div className="navbar--leftcontainer">
+            <a href="#" className="navbar--arrowbtn">
+              <ArrowBackIosIcon />
+            </a>
+            <a href="#" className="navbar--arrowbtn">
+              <ArrowForwardIosIcon />
+            </a>
+            <a href="#" className="navbar--playlistbtn">
+              Lista de reprodução
+            </a>
+            <a href="#" className="navbar--btns">
+              Podcasts
+            </a>
+            <a href="#" className="navbar--btns">
+              Artistas
+            </a>
+            <a href="#" className="navbar--btns">
+              Álbuns
+            </a>
+          </div>
+          <div className="navbar--rightcontainer">
+            <a href="#" className="navbar--user">
+              ...
+            </a>
+          </div>
         </div>
-      </C.Left>
-      <C.Right>...</C.Right>
+      </C.Right>
     </C.Container>
   );
 };
