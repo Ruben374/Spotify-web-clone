@@ -16,6 +16,8 @@ overflow: hidden;
     margin-top:20px;
 }
 img{
+    margin-top:23px;
+
     margin-bottom:25px;
 }
 .icons{
