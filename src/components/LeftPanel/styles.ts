@@ -2,6 +2,7 @@ import Styled from "styled-components";
 
 
 export const Left = Styled.div`
+
 background-color:black;
 width:14.5%;
 min-width:6%;
@@ -9,9 +10,19 @@ max-width:26%;
 height: 100vh;
 display:flex;
 flex-direction: column;
-padding:0 25px;
+
 resize: horizontal;
 overflow: hidden;
+.Left{
+    padding:0 25px;
+    width:14.5%;
+min-width:6%;
+max-width:26%;
+height: 100vh;
+display:flex;
+flex-direction: column;
+}
+
 #list{
     margin-top:20px;
 }

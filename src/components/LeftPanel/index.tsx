@@ -10,65 +10,67 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 const LeftPanel = () => {
   return (
     <C.Left id="teste">
-      <a href="#">
+      <a href="#" style={{backgroundColor:"red"}}>
         <img src={logo} alt="" width="130px" />
       </a>
-      <a href="#" className="icons">
-        <HomeIcon className="icon" /> Início
-      </a>
-      <a href="#" className="icons">
-        <SearchIcon className="icon" /> Procurar
-      </a>
-      <a href="#" className="icons">
-        <EqualizerIcon className="icon" /> A tua Bibloteca
-      </a>
-      <a href="#" className="icons" id="list">
-        <AddBoxIcon className="icon" /> Criar Lista de reprodução
-      </a>
-      <a href="#" className="icons">
-        <FavoriteIcon className="icon" />
-        Criar Lista de reprodução
-      </a>
-      <div className="playlists--container">
-        <a href="#" className="playlists--item">
-          Lista de reprodução
+      <div className="Left">
+        <a href="#" className="icons">
+          <HomeIcon className="icon" /> Início
         </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
+        <a href="#" className="icons">
+          <SearchIcon className="icon" /> Procurar
         </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
+        <a href="#" className="icons">
+          <EqualizerIcon className="icon" /> A tua Bibloteca
         </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
+        <a href="#" className="icons" id="list">
+          <AddBoxIcon className="icon" /> Criar Lista de reprodução
         </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
+        <a href="#" className="icons">
+          <FavoriteIcon className="icon" />
+          Criar Lista de reprodução
         </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
-        <a href="#" className="playlists--item">
-          Lista de reprodução
-        </a>
+        <div className="playlists--container">
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+          <a href="#" className="playlists--item">
+            Lista de reprodução
+          </a>
+        </div>
       </div>
     </C.Left>
   );

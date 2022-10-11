@@ -1,12 +1,14 @@
 import * as C from "./styles";
-import NavBar from '../Navbar'
+import NavBar from "../Navbar";
+import PlayLists from "../PlayLists";
 
 const RightPanel = () => {
   return (
     <C.Right>
       <div className="playlist--container">
-        <NavBar/>
-       
+        <NavBar />
+        
+        <PlayLists />
       </div>
     </C.Right>
   );

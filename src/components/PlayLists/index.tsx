@@ -1,15 +1,43 @@
+import * as C from "./styles";
 const PlayList = () => {
   return (
-    <>
-      <div className="playlist--card--container--top">
-        <span> Spotify Playlists</span>
-        <span> Ver Tudo</span>
-      </div>
-      <div className="playlist--card--container">
-        <div className="playlist--card">...</div>
-        <div className="playlist--card">...</div>
-      </div>
-    </>
+   <C.PlaylistContainer>
+    <C.Playlists>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       v
+
+       v
+       v
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       v
+       v
+       v
+       v Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis dolorum dolore quis illum reprehenderit temporibus, laboriosam et nesciunt ab sapiente at quod sequi consectetur, voluptatibus, est corporis odio nihil.
+       
+    </C.Playlists>
+   </C.PlaylistContainer>
   );
 };
 
