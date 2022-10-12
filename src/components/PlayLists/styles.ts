@@ -7,9 +7,10 @@ overflow:auto;
 `;
 export const Playlists = Styled.div`
 border-radius:1%;
-background-color:orange;
+background-color:	#535353;
 overflow:auto;
-height:80vh;
+height:70vh;
+padding: 20px;
 
 ::-webkit-scrollbar {
     width: 15px; 
