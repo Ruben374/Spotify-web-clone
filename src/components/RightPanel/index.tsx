@@ -6,8 +6,7 @@ const RightPanel = () => {
   return (
     <C.Right>
       <div className="playlist--container">
-        <NavBar />
-        
+        <NavBar />   
         <PlayLists />
       </div>
     </C.Right>

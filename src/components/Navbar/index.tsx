@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <C.NavBar>
       <div className="navbar--container">
-        <HomeIcon color="primary" />
+        <HomeIcon color="primary"/>
         <input type={"search"} className="search--input" />
         <a href="#" className="navbar--user">
           ...
