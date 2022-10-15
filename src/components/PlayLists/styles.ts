@@ -6,8 +6,6 @@ overflow:auto;
 `;
 export const Playlists = Styled.div`
 border-radius:1%;
-
-
 background: linear-gradient(0deg, #474A51,#14c9cb  1000%) no-repeat;
 overflow:auto;
 height:70vh;
@@ -69,3 +67,4 @@ span{
 
 
 `;
+

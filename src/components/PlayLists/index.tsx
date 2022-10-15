@@ -1,4 +1,5 @@
 import * as C from "./styles";
+import MusicCards from "../MusicCards";
 const PlayList = () => {
   return (
     <C.PlaylistContainer>
@@ -32,6 +33,7 @@ const PlayList = () => {
             </C.Item>
           </C.ItensContainer>
         </C.UserPlaylists>
+        <MusicCards />
       </C.Playlists>
     </C.PlaylistContainer>
   );
