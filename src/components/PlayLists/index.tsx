@@ -34,6 +34,7 @@ const PlayList = () => {
           </C.ItensContainer>
         </C.UserPlaylists>
         <MusicCards />
+        <MusicCards />
       </C.Playlists>
     </C.PlaylistContainer>
   );
